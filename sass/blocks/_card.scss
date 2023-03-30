@@ -1,0 +1,131 @@
+.card{
+    padding: 50px 0;
+    &__inner{
+        // padding-top: 50px;
+        padding: 50px 0 0 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 30px;
+    }
+    &__review {
+        width: 500px;
+    }
+    &__menu{
+        background: rgba(0, 152, 70, 1);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        // height: 165px; 
+        gap: 30px;
+        padding:10px 20px;
+    }
+    &__menu div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    &__menu-divider{
+        width: 2px;
+        height: 140px;
+        background: rgba(239, 239, 239, 1);
+        opacity: 0.38;
+    }
+    &__ul a{
+        font-family: "Proxima Nova";
+        font-size: 18px;
+        font-weight: 400;
+        font-style: normal;
+        text-align: left;
+        color: #fff;
+        line-height: 36px;
+        text-decoration: none;
+        &:hover {
+            color: rgb(220, 148, 23);
+        }
+    }
+    &__ul{
+        color: #fff;
+        margin-left: 15px;
+    }
+    &__subtitle{
+        font-family: "Proxima Nova";
+        font-size: 20px;
+        font-weight: 700;
+        font-style: normal;
+        text-align: left;
+        color: #000;
+    }
+    &__radio p {
+        display: none;
+    }
+      #one:checked ~ #text1,
+      #two:checked ~ #text2{
+        display: block;
+      }
+    &__radio-btn{
+        display: none;
+    }
+    &__radio-label{
+        font-family: "Proxima Nova";
+        font-size: 20px;
+        font-weight: 700;
+        font-style: normal;
+        text-align: left;
+        color: #000;
+        &:hover{
+            color: rgba(0, 152, 70, 1);
+        }
+    }
+    &__divider{
+        height: 2px;
+        width: 90%;
+        background: rgb(34, 33, 33);
+        opacity: 0.38;
+        margin: 0 auto;
+    }
+    &__description {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    &__radio span{
+        font-family: "Proxima Nova";
+        font-size: 19px;
+        font-weight: 400;
+        font-style: normal;
+        text-align: left;
+        color: #282727;
+    }
+    &__radio p{
+        font-family: "Proxima Nova";
+        font-size: 19px;
+        font-weight: 400;
+        font-style: normal;
+        text-align: left;
+        color: #282727;
+    }
+    &__description{
+        font-family: "Proxima Nova";
+        font-size: 19px;
+        font-weight: 400;
+        font-style: normal;
+        text-align: left;
+        color: #282727;
+    }
+    
+}
+.card__subtitleCard{
+    font-family: "Akrobat";
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+}
+.card__subtitleCard a{
+    font-family: "Akrobat";
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+}

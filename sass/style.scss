@@ -1,0 +1,54 @@
+@import 'libs/normalize.css';
+@import 'libs/fonts.css';
+@import 'libs/slick.css';
+
+* {
+    input {
+        outline:none;
+    }
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    button:hover{
+        transform: scale(1.05)
+    };
+    button {
+        border: none;
+        &:hover{
+            border: none;
+        };
+    }
+    a:hover{
+        transform: scale(1.05)
+    };
+}
+
+@import 'blocks/main/header';
+@import 'blocks/main/nav';
+@import 'blocks/main/promo';
+@import 'blocks/main/reasons';
+@import 'blocks/main/products';
+@import 'blocks/main/basic';
+@import 'blocks/main/consultation';
+@import 'blocks/main/certificates';
+@import 'blocks/main/calendar';
+@import 'blocks/main/catalog';
+
+@import 'blocks/slider';
+@import 'blocks/title';
+
+@import 'blocks/cooperation/breadcrumbs';
+@import 'blocks/cooperation/cooperation';
+
+@import 'blocks/history';
+@import 'blocks/contacts';
+@import 'blocks/map';
+@import 'blocks/bankDetails';
+@import 'blocks/footer';
+@import 'blocks/card';
+@import 'blocks/catalogCard';
+@import 'blocks/reviews';
+@import 'blocks/pressAbout';
+@import 'blocks/vacancy';
+
+@import 'blocks/media';

@@ -1,0 +1,31 @@
+.cooperation {
+    // height: 400px;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    &__icon{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    &__subtitle {
+        display: block;
+        font-family: "Proxima Nova";
+        font-size: 20px;
+        font-weight: 700;
+        font-style: normal;
+        text-align: center;
+        color: #262626;
+        margin-bottom: 15px;
+    }
+    &__descr {
+        display: block;
+        font-family: "Proxima Nova";
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+    }
+}

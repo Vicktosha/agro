@@ -1,0 +1,40 @@
+.basic {
+    // padding: 100px 0;
+    // height: 730px;
+    padding: 50px 0;
+    &__grid {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    &__inner{
+        grid-area: basicInner;
+    }
+    &__img{
+        grid-area: basicImg;
+    }
+    &__icon{
+        display: flex;
+        justify-content: center;
+    }
+    &__ul {
+        margin-top: 50px;
+        font-family: "Proxima Nova";
+        font-size: 21px;
+        font-weight: 400;
+        font-style: normal;
+        text-align: left;
+        color: #262626;
+        line-height: 36px;
+        margin-left: 20px;
+    }
+    &__p {
+        font-family: "Proxima Nova";
+        font-size: 21px;
+        font-weight: 400;
+        font-style: normal;
+        text-align: left;
+        color: #262626;
+        line-height: 50px;
+    }
+}

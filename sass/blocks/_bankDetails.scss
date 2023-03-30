@@ -1,0 +1,48 @@
+.bankDetails{
+    font-family: "Proxima Nova";
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+    color: #1B1B1B;
+    // margin-bottom: 55px;
+    // margin-top: 30px;
+    padding: 50px 0;
+    &__details {
+        font-family: "Akrobat";
+        font-size: 30px;
+        font-weight: 600;
+        font-style: normal;
+        text-align: left;
+        color: #292929;
+        margin-bottom: 55px;
+    }
+    &__name{
+        margin-bottom: 30px;
+        display: block;
+        font-family: "Akrobat";
+        font-size: 20px;
+        font-weight: 900;
+    }
+    &__fullname{
+        margin-bottom: 55px;
+        display: block;
+    }
+    &__reginfo {
+        font-family: "Akrobat";
+        font-size: 30px;
+        font-weight: 600;
+        font-style: normal;
+        text-align: left;
+        color: #292929;
+        margin-bottom: 55px;
+    }
+    &__info div span{
+        display: block;
+    }
+    &__info{
+        display: grid;
+        grid-template: repeat(3, 1fr) / repeat(3, 1fr); 
+        gap: 30px;
+    }
+}

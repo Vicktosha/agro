@@ -1,0 +1,135 @@
+.consultation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &_cooperation{
+        // height: 675px;
+        padding: 50px 0 0 0;
+       
+    }
+    &__info{
+        text-align: center;
+    }
+    &__details{
+        font-family: "Proxima Nova";
+        font-size: 22px;
+        font-weight: 700;
+        font-style: normal;
+        text-align: center;
+        color: #262626;
+        display: inline-block;
+        margin-bottom: 25px;
+    }
+    &__details a{
+        color: rgba(0, 152, 70, 1);;
+    }
+    &__text{
+        font-family: "Akrobat";
+        font-size: 29px;
+        font-weight: 600;
+        font-style: normal;
+        text-align: center;
+        color: #009846;
+        display: inline-block;
+        margin-bottom: 25px;
+    }
+    &__inner{
+        // height: 195px;
+        background: rgba(0, 152, 70, 1);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 35px;
+        &_cooperation{
+            // height: 375px;
+            // padding: 30px 30px;
+            padding: 80px 30px 90px 30px;
+            // display: block;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+    }
+    &__subtitle{
+        font-family: "Proxima Nova";
+        font-size: 21px;
+        font-weight: 400;
+        font-style: normal;
+        text-align: left;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+    }
+    &__textarea input{
+        padding-left: 20px;
+        width: 320px;
+        height: 65px;
+        background: rgba(0, 152, 70, 1);
+
+        font-family: "Proxima Nova";
+        font-size: 21px;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        color: #FFFFFF;
+
+        border-color: rgba(255, 255, 255, 1);
+        border-width: 2px;
+        border-style: solid;
+        &::placeholder{
+            font-family: "Proxima Nova";
+            font-size: 24px;
+            font-weight: 400;
+            font-style: normal;
+            text-align: left;
+            color: #FFFFFF;
+        }
+       
+    }
+    &__btn{
+        width: 320px;
+        height: 65px;
+
+        font-family: "Akrobat";
+        font-size: 24px;
+        font-weight: 600;
+        font-style: normal;
+        text-align: center;
+        color: #171717;
+        margin: 10px 0;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    &__form{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+}
+.policy{
+    display: inline-block;
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #FFFFFF;
+}
+.consultation__textarea_cooperation input{
+    margin-top: 30px;
+    margin-right: 30px;
+    width: 370px;
+    &::placeholder{
+        font-family: "Proxima Nova";
+        font-size: 24px;
+        font-weight: 400;
+        font-style: normal;
+        text-align: left;
+        color: #FFFFFF;
+    }
+
+}
+.consultation__textarea_cooperation .policy{
+    width: 320px;
+}

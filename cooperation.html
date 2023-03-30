@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ООО «Агросинтез»</title>
+    <meta name="title" content="ООО «Агросинтез»">
+    <meta name="description" content="Агрохимическое производство (минеральные удобрения, грунт, моющие средства, нефтеполимерная смола, строительная химия)">
+    
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./icons/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./icons/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./icons/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./icons/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./icons/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./icons/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./icons/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./icons/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./icons/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./icons/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./icons/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicons/favicon-16x16.png">
+    <link rel="manifest" href="./icons/favicons//manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./icons/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="sass/libs/font.css">
+    <link rel="stylesheet" href="sass/libs/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="sass/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="header__logo"><img src="./icons/logo.png" alt="Agro"></a>
+                    <div class="header__location">
+                        <span class="icon-location"></span>
+                        <div>
+                            <span class="header__city">КЕМЕРОВО (GMT+7)</span>
+                            <span class="header__street">Ул. Шатурская, 4а</span>
+                        </div>
+                    </div>
+                        <div class="header__contact">
+                            <div style="gap: 5px;">
+                                <span class="icon-envelop"></span>
+                                <span class="icon-clock"></span>
+                            </div>
+                            <div>
+                                <a href="mailto:tdvika42@mail.ru" class="header__mail">tdvika42@mail.ru</a>
+                                <span class="header__schedule">ПН-ПТ: 8:00-16:30</span>
+                            </div>
+                        </div>
+                            <div class="header__phone">
+                                <span class="icon-phone"></span>
+                                <div>
+                                    <a href="tel:+73846434015" class="header__tel">+7 (38464) 3-40-15</a>
+                                    <a href="tel:+73846434015" class="header__tel">+7 (38464) 3-40-15</a>
+                                </div>
+                            </div>
+                                <form class="header__search">
+                                    <input type="text" placeholder="Поиск">
+                                    <button type="submit"></button>
+                                </form>
+                                    <div class="header__lang">
+                                        <a class="btn btn_lang" href="https://ags.al-develop.ru">Rus</a>
+                                        <a class="btn btn_lang" href="https://en-ags.al-develop.ru">En</a>
+                                    </div>
+
+                                    <div class="hamburger">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <nav class="nav" style="position: sticky; top: 0;">
+            <div class="container">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="./index.html">ГЛАВНАЯ</a></li>
+                    <li class="nav__item"><a href="./products.html">ПРОДУКЦИЯ</a></li>
+                    <li class="nav__item"><a href="#">СОТРУДНИЧЕСТВО</a></li>
+                    <li class="nav__item"><a href="./about.html">О НАС</a></li>
+                    <li class="nav__item"><a href="./vacancy.html">ВАКАНСИИ</a></li>
+                    <li class="nav__item"><a href="./contacts.html">КОНТАКТЫ</a></li>
+                </ul>
+            </div>
+        </nav>
+    
+        <div class="breadcrumbs">
+            <div class="container">
+                <ul class="breadcrumbs__list">
+                    <li><a href="./index.html">Главная</a></li>
+                    <li>Сотрудничество</li>
+                </ul>
+            </div>
+        </div>
+    
+        <section class="cooperation">
+            <div class="container">
+                <h1 class="title_48">Сотрудничество</h1>
+                <div class="cooperation__icon">
+                    <img src="./icons/leaf.png" alt="leaf">
+                </div>
+                <span class="cooperation__subtitle">
+                    Приглашаем к сотрудничеству дилеров, партнеров и оптовых покупателей
+                </span>
+                <span class="cooperation__descr">
+                    Если Вы здесь, значит вам интересно сотрудничество с нами. Мы заинтересованны в построении долгих и плодотворных отношениях с нашими партнерами и дилерами по всей России и зырубежем. Мы гарантируем качественную продукцию, гибкую систему скидок и индивидуальный подход к каждому покупателю.
+                </span>
+            </div>
+        </section>
+    
+        <section class="reasons reasons_cooperation">
+            <div class="container">
+                    <h1 class="reasons__title">9</h1>
+                    <span class="reasons__subtitle">
+                    причин <br> работать с нами
+                    </span>
+                    <div class="reasons__grid reasons__grid_cooperation">
+                        <div class="reasons__item">
+                            <span class="reasons__item-num">
+                                -01
+                            </span>
+                            <h3 class="reasons__item-title">
+                                Собственное производство
+                            </h3>
+                            <span class="reasons__item-subtitle">
+                                Наличие собственного производства и современной лаборатории. Мы изготовим продукцию по вашим рецептам и отвечаем за качество своей продукции!
+                            </span>
+                        </div>
+                        <div class="reasons__item">
+                            <span class="reasons__item-num">
+                                -02
+                            </span>
+                            <h3 class="reasons__item-title">
+                                Гибкая ценовая политика
+    
+                            </h3>
+                            <span class="reasons__item-subtitle">
+                                Скидки от объема и регулярности поставок.
+    
+                            </span>
+                        </div>
+                        <div class="reasons__item">
+                            <span class="reasons__item-num">
+                                -03
+                            </span>
+                            <h3 class="reasons__item-title">
+                                Заказ пробных партий
+    
+                            </h3>
+                            <span class="reasons__item-subtitle">
+                                Вы можете купить пробную партию одной или нескольких позиций, и проверить, насколько хорошо они пользуются спросом у ваших клиентов.
+    
+                            </span>
+                        </div>
+                        <div class="reasons__item">
+                            <span class="reasons__item-num">
+                                -04
+                            </span>
+                            <h3 class="reasons__item-title">
+                                Сертифицированная продукция
+    
+                            </h3>
+                            <span class="reasons__item-subtitle">
+                                Весь товар имеет необходимые сертификаты соответствия и патент на производство гранулированных удобрений.
+    
+                            </span>
+                        </div>
+                        <div class="reasons__item">
+                            <span class="reasons__item-num">
+                                -05
+                            </span>
+                            <h3 class="reasons__item-title">
+                                Отгрузка товара в течение суток
+    
+                            </h3>
+                            <span class="reasons__item-subtitle">
+                                Грамотная логистика позволяет выполнять быструю доставку с наших складов до ваших магазинов и торговых центров в любой регион России и точку мира.
+    
+                            </span>
+                        </div>
+                        <div class="reasons__item">
+                            <span class="reasons__item-num">
+                                -06
+                            </span>
+                            <h3 class="reasons__item-title">
+                                Инфо и рекламная поддержка
+    
+                            </h3>
+                            <span class="reasons__item-subtitle">
+                                Нашим клиентам предоставляем необходимые рекламные материалы: плакаты, брошюры, презентации, листовки, ведеоролики, также размещение рекламы в СМИ.
+    
+                            </span>
+                        </div>
+                        <div class="reasons__item">
+                            <span class="reasons__item-num">
+                                -07
+                            </span>
+                            <h3 class="reasons__item-title">
+                                удобная оплата
+    
+                            </h3>
+                            <span class="reasons__item-subtitle">
+                                ндивидуальные условия оплаты, отсрочка платежа.
+    
+                            </span>
+                        </div>
+                        <div class="reasons__item">
+                            <span class="reasons__item-num">
+                                -08
+                            </span>
+                            <h3 class="reasons__item-title">
+                                Широкий ассортимент товара
+    
+                            </h3>
+                            <span class="reasons__item-subtitle">
+                                около 50 позиций простых и сложных удобрений, более 15 видов грунтов и более 100 наименований промышленной и бытовой химии.
+    
+                            </span>
+                        </div>
+                        <div class="reasons__item">
+                            <span class="reasons__item-num">
+                                -09
+                            </span>
+                            <h3 class="reasons__item-title">
+                                Техподдержка и консультации
+    
+                            </h3>
+                            <span class="reasons__item-subtitle">
+                                Наши специалисты в минимальные сроки отвечают на возникшие вопросы и проконсультируют по ассортименту нашего товара.
+    
+                            </span>
+                        </div>
+                    </div>
+            </div>
+        </section>
+    
+        <section class="consultation consultation_cooperation">
+            <div class="container">
+                <div class="consultation__info">
+                    <span class="consultation__details">
+                        Подробности сотрудничества можно уточнить у наших менеджеров по номеру тел.: <br>
+                        +7 (3842) 57-14-48 или <a href="#">оставив заявку</a>
+                    </span>
+                    <span class="consultation__text">
+                        Мы открыты любым предложениям и готовы к сотрудничеству. <br>
+                        Отправьте свою заявку прямо сейчас!
+                    </span>
+                    <div class="consultation__inner consultation__inner_cooperation">
+                        <h1 class="title_38">Консультация специалиста</h1>
+                        <span class="consultation__subtitle">Наши специалисты проконсультируют вас по всем вопросам бесплатно</span>
+                        <form action="#" class="consultation__textarea consultation__textarea_cooperation">
+                            <input required type="text" placeholder="ФИО">
+                            <input required type="tel" placeholder="+7 (000) 000-00 00">
+                            <span class="policy">Нажимая на кнопку, Вы соглашаетесь с <br> Политикой конфиденциальности</span>
+                            <input required type="email" placeholder="E-mail">
+                            <input required type="text" placeholder="Сообщение">
+                            <button class="consultation__btn">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="products">
+            <div class="container">
+                <h1 class="title_48">Продукция</h1>
+                <div class="products__icon">
+                    <img src="./icons/leaf.png" alt="leaf">
+                </div>
+                    <div class="products__grid">
+                        <div class="products__item">
+                            <img src="./icons/products1.png" alt="product" class="products__img">
+                            <a href="./category.html" class="products__btn">Удобрения</a>
+                        </div>
+                        <div class="products__item">
+                            <img src="./icons/products2.png" alt="product" class="products__img">
+                            <a href="./category.html" class="products__btn">Грунты</a>
+                        </div>
+                        <div class="products__item">
+                            <img src="./icons/products3.png" alt="product" class="products__img">
+                            <a href="./category.html" class="products__btn">Моющие средства</a>
+                        </div>
+                        <div class="products__item">
+                            <img src="./icons/products4.png" alt="product" class="products__img">
+                            <a href="./category.html" class="products__btn">Строительная химия</a>
+                        </div>
+                        <div class="products__item">
+                            <img src="./icons/products5.png" alt="product" class="products__img">
+                            <a href="./category.html" class="products__btn">Промышленная химия</a>
+                        </div>
+                        <div class="products__item">
+                            <img src="./icons/products1.png" alt="product" class="products__img">
+                            <a href="./category.html" class="products__btn">Жидкость для розжига</a>
+                        </div>
+                    </div>
+            </div>
+        </section>
+    
+        <section class="calendar">
+            <div class="container">
+                <h1><a href="./articles.html" class="title_48">Календарь удобрений</a></h1>
+                <div class="products__icon">
+                    <img src="./icons/leaf.png" alt="leaf">
+                </div>
+                <div class="slider-calendar">
+                    <div>
+                        <div class="calendar__item">
+                            <img src="./img/calendar.png" alt="woman">
+                            <div class="calendar__desc">
+                                <span class="calendar__date">09.09.2022</span>
+                                <span class="calendar__why">
+                                    Почему выгодно покупать удобрения у нас
+                                </span>
+                                <a href="./article.html" class="calendar__btn">
+                                    Подробнее
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="calendar__item">
+                            <img src="./img/calendar.png" alt="woman">
+                            <div class="calendar__desc">
+                                <span class="calendar__date">09.09.2022</span>
+                                <span class="calendar__why">
+                                    Почему выгодно покупать удобрения у нас
+                                </span>
+                                <a href="./article.html" class="calendar__btn">
+                                    Подробнее
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="calendar__item">
+                            <img src="./img/calendar.png" alt="woman">
+                            <div class="calendar__desc">
+                                <span class="calendar__date">09.09.2022</span>
+                                <span class="calendar__why">
+                                    Почему выгодно покупать удобрения у нас
+                                </span>
+                                <a href="./article.html" class="calendar__btn">
+                                    Подробнее
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="calendar__item">
+                            <img src="./img/calendar.png" alt="woman">
+                            <div class="calendar__desc">
+                                <span class="calendar__date">09.09.2022</span>
+                                <span class="calendar__why">
+                                    Почему выгодно покупать удобрения у нас
+                                </span>
+                                <a href="./article.html" class="calendar__btn">
+                                    Подробнее
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer footer_mt">
+        <div class="container">
+            <div class="footer__inner">
+                <form class="footer__form" action="#">
+                    <input class="footer__mail" required type="text" placeholder="Сообщение">
+                    <input class="footer__email" required type="email" placeholder="E-mail">
+                    <button class="consultation__btn">Отправить</button>
+                    <span class="policy">Нажимая на кнопку, Вы соглашаетесь с <br> Политикой конфиденциальности</span>
+                </form>
+
+                <div class="footer__navigation">
+                    <!-- <span class="footer__title">Навигация</span> -->
+                    <ul class="nav__list nav__list_footer">
+                        <li class="nav__item nav__item_footer"><a href="./index.html">ГЛАВНАЯ</a></li>
+                        <li class="nav__item nav__item_footer"><a href="./products.html">ПРОДУКЦИЯ</a></li>
+                        <li class="nav__item nav__item_footer"><a href="#">СОТРУДНИЧЕСТВО</a></li>
+                        <li class="nav__item nav__item_footer"><a href="./about.html">О НАС</a></li>
+                        <li class="nav__item nav__item_footer"><a href="./press.html">СМИ</a></li>
+                        <li class="nav__item nav__item_footer"><a href="./reviews.html">ОТЗЫВЫ</a></li>
+                        <li class="nav__item nav__item_footer"><a href="./vacancy.html">ВАКАНСИИ</a></li>
+                        <li class="nav__item nav__item_footer"><a href="./advertising.html">РЕКЛАМНЫЕ КАТАЛОГИ</a></li>
+                        <!-- <li class="nav__item nav__item_footer"><a href="./contacts.html">КОНТАКТЫ</a></li> -->
+                    </ul>
+                </div>
+
+                <div class="footer__info">
+                    <span class="footer__title">Контактная информация</span>
+                    <div class="footer__grid">
+                        <div class="footer__item">
+                            <div>
+                                <span class="icon-location"></span>
+                            </div>
+                            <div>
+                                <span class="header__city" style="color: #fff;">КЕМЕРОВО (GMT+7)</span>
+                                <span class="header__street" style="color: #fff;">Ул. Шатурская, 4а</span>
+                            </div>
+                        </div>
+                        <div class="footer__item">
+                            <div>
+                                <span class="icon-clock"></span>
+                            </div>
+                            <div>
+                                <span class="header__schedule" style="color: #fff;">ПН-ПТ: 8:00-16:30</span>
+                                <span class="header__street" style="color: #fff;">Режим работы</span>
+                            </div>
+                        </div>
+                        <div class="footer__item">
+                            <div>
+                                <span class="icon-phone"></span>
+                                <span class="icon-phone"></span>
+                                <span class="icon-phone"></span>
+                            </div>
+                            <div>
+                                <a href="tel:+73846434015" class="header__tel header__tel_footer">+7 (38464) 3-40-15</a>
+                                <a href="tel:+73846434015" class="header__tel header__tel_footer">+7 (38464) 3-40-15</a>
+                                <a href="tel:+73846434015" class="header__tel header__tel_footer">+7 (38464) 3-40-15</a>
+                            </div>
+                        </div>
+                        <div class="footer__item">
+                            <div>
+                                <span class="icon-envelop"></span>
+                                <span class="icon-envelop"></span>
+                            </div>
+                            <div>
+                                <a href="mailto:tdvika42@mail.ru" class="header__mail header__mail_footer">tdvika42@mail.ru</a>
+                                <a href="mailto:tdvika42@mail.ru" class="header__mail header__mail_footer">tdvika42@mail.ru</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__divider"></div>
+        <div class="footer__copyright">
+            &copy; ООО «Агросинтез»
+            <script>document.write(new Date().getFullYear().toString());</script>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="./js/jquery.fancybox.min.js"></script>
+
+				
+    <script src="js/script.js"></script>
+</body>
+</html>

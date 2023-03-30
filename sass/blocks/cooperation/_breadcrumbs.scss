@@ -1,0 +1,26 @@
+.breadcrumbs {
+    background-color: #ecf1e7;
+  }
+  .breadcrumbs__list {
+    padding: 26px 0;
+  }
+  .breadcrumbs__list li {
+    display: inline;
+    font-family: "Proxima Nova";
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 120%;
+    letter-spacing: 0.025em;
+    color: rgb(220, 148, 23);
+  }
+  .breadcrumbs__list li + li::before {
+    padding: 16px;
+    color: #888888;
+    content: ">";
+  }
+  .breadcrumbs__list a {
+    color: #888888;
+  }
+  .breadcrumbs__list a:hover {
+    color: rgb(220, 148, 23)
+  }

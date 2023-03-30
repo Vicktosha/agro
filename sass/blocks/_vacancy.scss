@@ -1,0 +1,66 @@
+.products_vacancy details{
+    margin-top: 30px;
+}
+.vacancy__summary {
+    // border-top: 2px solid  rgba(219, 218, 218, 1);
+    padding: 0 10px;
+    width: 100%;
+    border-radius: 5px;
+    font-family: "Akrobat";
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: left;
+    color: #000;
+    cursor: pointer;
+    margin-bottom: 20px;
+    position: relative;
+    padding: 0 30px 0 10px;
+    &::after{
+        content: "\2228";
+        font-size: 50px;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
+details[open] .vacancy__summary::after{
+    content: "\2227";
+        font-size: 50px;
+        position: absolute;
+        right: 0;
+        top: 0;
+}
+.vacancy__box{
+    // border: 2px solid  rgb(61, 137, 243);
+}
+.vacancy__ul {
+    
+    padding: 10px;
+    font-family: "Proxima Nova";
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    color: #1B1B1B;
+    list-style-type:decimal;
+}
+.vacancy__ul li {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.vacancy__ul span {
+    margin-bottom: 20px;
+}
+.vacancy__title {
+    font-family: "Akrobat";
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: left;
+    color: #000;
+}
+
+details summary{
+    list-style: none;
+}

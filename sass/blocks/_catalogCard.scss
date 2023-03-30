@@ -1,0 +1,119 @@
+.catalog__item_prod{
+    height: 363px;
+    width: 255px;
+    border: 2px solid rgba(239, 239, 239, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center ;
+    padding: 0 10px;
+    
+}
+.catalog__item_prod img{
+    height: 151px;
+}
+.catalog__name_category{
+    font-size: 19px;
+}
+.category{
+    padding: 50px 0;
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 30px;
+        // margin: 50px 0;
+        padding: 50px 0;
+    }
+    &__name{
+        display: flex;
+        flex-direction:column ;
+        align-items: flex-start;
+        gap: 35px;
+    }
+    
+    &__card{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 20px;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    &__li{
+        margin-top: 5px;
+    }
+    
+    &__ul{
+        transition: 0.3s ease-in-out;
+        max-height: 100%;
+        overflow: hidden;
+        padding-left: 25px;
+        border-radius: 5px;
+        font-family: "Proxima Nova";
+        font-size: 24px;
+        font-weight: 400;
+        font-style: normal;
+        text-align: left;
+        color: #000;
+        cursor: pointer;
+        list-style-type: none;
+    }
+    &__ul li{
+        cursor: pointer;
+    }
+    &__subname{
+        padding-left: 25px;
+        height: 60px;
+        width: 350px;
+        border-radius: 5px;
+        background:  rgba(0, 152, 70, 1);
+        font-family: "Proxima Nova";
+        font-size: 24px;
+        font-weight: 700;
+        font-style: normal;
+        text-align: left;
+        color: #FFFFFF;
+        cursor: pointer;
+        border: 2px solid rgba(239, 239, 239, 1);
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    &__subname_sub{
+        background: #FFFFFF;
+        color: #000;
+        position: relative;
+        margin: 0;
+        &::after{
+            content: '+';
+            position: absolute;
+            right: 10px;
+        }
+    }
+    
+    
+}
+
+.button__ul{
+    position: absolute;
+    bottom: -60px;
+    left: calc(50% - 96px);
+}
+.button__li{
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    color:  rgb(171, 168, 168);
+    border: 2px solid rgb(171, 168, 168);
+    border-radius: 100%;
+    margin-right: 20px;
+    &:hover{
+        color:  rgb(220, 148, 23);
+        border: 2px solid  rgb(220, 148, 23);
+    }
+}
+.button__li:nth-last-child(-n + 1){
+    margin-right: 0;
+}

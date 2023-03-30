@@ -1,0 +1,180 @@
+.header {
+    background: #fff;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 110px;
+        padding: 15px 0;
+    }
+    &__logo {
+        height: 100%;
+    }
+    &__logo img{
+        height: 100%;
+    }
+    &__location {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__location div {
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        gap: 10px;
+    }
+    &__city {
+        font-family: "Akrobat";
+        font-size: 20px;
+        font-weight: 600;
+        font-style: normal;
+        text-align: left;
+        color: #009846;
+        &:hover{
+            transform: scale(1.05)
+        };
+    }
+    &__street {
+        font-family: "Proxima Nova";
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        text-align: left;
+        color: #1B1B1B;
+        &:hover{
+            transform: scale(1.05)
+        };
+    }
+    &__contact {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__contact div {
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        gap: 10px;
+    }
+    &__mail {
+        font-family: "Proxima Nova";
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        text-align: left;
+        color: #1B1B1B;
+        text-decoration: none;
+    }
+    &__schedule {
+        font-family: "Akrobat";
+        font-size: 20px;
+        font-weight: 600;
+        font-style: normal;
+        text-align: left;
+        color: #009846;
+        &:hover{
+            transform: scale(1.05)
+        };
+    }
+    &__phone {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__phone div {
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        gap: 10px;
+    }
+    &__tel {
+        font-family: "Akrobat";
+        font-size: 20px;
+        font-weight: 600;
+        font-style: normal;
+        text-align: left;
+        color: #1B1B1B;
+        text-decoration: none;
+    }
+    &__search {
+        position: relative;
+    }
+    &__search input{
+        width: 225px;
+        height: 65px;;
+        border-radius: 10px;
+        border-color: rgba(151, 151, 151, 1);
+        border-width: 1px;
+        border-style: solid;
+        padding: 0 25px;
+
+        font-family: "Proxima Nova";
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        text-align: left;
+        color: #1B1B1B;
+    }
+    &__search button {
+        position: absolute;
+        top: calc(50% - 13px);
+        right: 25px;
+        border: none;
+        background: #fff;
+        &::before {
+            content: url(../icons/search.svg);
+            background: #fff;
+        }
+    }
+    &__lang {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: start;
+        position: relative;
+    }
+    .btn_lang {
+        font-family: "Proxima Nova";
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        color: #1B1B1B;
+        cursor: pointer;
+        text-decoration: none;
+
+        width: 76px;
+        height: 30px;
+        border-color: rgba(151, 151, 151, 1);
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 5px;
+        background: #fff;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover{
+            transform: scale(1.05);
+        }
+        &:focus{
+            border: 2px solid  rgb(220, 148, 23);
+        }
+    }
+}
+
+.hamburger{
+    display: none;
+}
+
